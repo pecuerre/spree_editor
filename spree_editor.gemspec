@@ -13,16 +13,16 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 1.9.3'
 
   s.authors       = ['Alexander Shuhin', 'Roman Smirnov', 'divineforest', 'Marc Lee', 'Jeff Dutil']
-  s.homepage      = 'https://github.com/spree/spree_editor'
-  s.license       = %q{BSD-3}
+  s.homepage      = 'https://github.com/spree-contrib/spree_editor'
+  s.license       = 'BSD-3'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- spec/*`.split("\n")
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'ckeditor',      '4.0.11'
-  s.add_dependency 'spree_backend', '~> 2.4.0.rc2'
+  s.add_dependency 'ckeditor',      '~> 4.1.1'
+  s.add_dependency 'spree_backend', '~> 2.4.0'
   s.add_dependency 'tinymce-rails', '~> 4.0.16'
 
   s.add_development_dependency 'rspec'

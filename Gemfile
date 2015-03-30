@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'spree', github: 'spree/spree', branch: '2-3-stable'
+gem 'minitest' # temp getting spec to run on master branch 3.3.0.beta
+gem 'spree', github: 'spree/spree', branch: '2-4-stable'
 
 gemspec
